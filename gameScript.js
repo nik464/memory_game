@@ -1,8 +1,11 @@
 var em = ["💐","🌹","🌻","🏵️","🌺","🌴","🌈","🍓","🍒","🍎","🍉","🍊","🥭","🍍","🍋","🍏","🍐","🥝","🍇","🥥","🍅","🌶️","🍄","🧅","🥦","🥑","🍔","🍕","🧁","🎂","🍬","🍩","🍫","🎈"];
-//Shuffling above array
-var tmp, c, p = em.length;
-if(p) while(--p) {
-   c = Math.floor(Math.random() * (p + 1));
+//creating array
+
+var tmp, c, p;
+
+for(p=3;p<6;p++)
+{
+   c = Math.floor(Math.random(p) * (p + 1));
    tmp = em[c];
    em[c] = em[p];
    em[p] = tmp;
