@@ -3,7 +3,7 @@ var em = ["💐","🌹","🌻","🏵️","🌺","🌴","🌈","🍓","🍒","�
 
 var tmp, c, p;
 
-for(p=3;p<6;p++)
+for(p=3;p<=6;p++)
 {
    c = Math.floor(Math.random(p) * (p + 1));
    tmp = em[c];
